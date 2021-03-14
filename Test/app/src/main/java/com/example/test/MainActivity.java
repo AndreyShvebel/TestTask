@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         bChangeColor.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
-            public void onClick(View v) { //generates and sets new colors on bg when button is clicked
+            public void onClick(View v) { //generates and sets new colors to bg on button click
                 r = (float) Math.random();
                 g = (float) Math.random();
                 b = (float) Math.random();
